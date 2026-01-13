@@ -17,30 +17,30 @@
                 <!-- Dados Pessoais -->
                 <legend>Dados Pessoais</legend>
 
-            <label for="userName">Nome</label>
-            <input type="text" name="userName" required>
-            <br>
-            <label for="age">Idade</label>
-            <input type="number" name="age" min="12" max="100" required>
-            <br>
-            <label for="birthDate">Data de Nascimento</label>
-            <input type="date" name="birthDate">
-            <br>
-            <label for="userEmail">Email</label>
-            <input type="email" name="userEmail">
-            <br>
-            <label for="userPhoneNumber">Telefone</label>
-            <input type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD+Número" required>
-            <br>
-            <label for="userImage">Foto</label>
-            <input type="file" accept="image/*" name="userImage">
+                <label for="userName">Nome</label>
+                <input type="text" name="userName" required>
+                <br>
+                <label for="age">Idade</label>
+                <input type="number" name="age" min="12" max="100" required>
+                <br>
+                <label for="birthDate">Data de Nascimento</label>
+                <input type="date" name="birthDate">
+                <br>
+                <label for="userEmail">Email</label>
+                <input type="email" name="userEmail">
+                <br>
+                <label for="userPhoneNumber">Telefone</label>
+                <input type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD+Número" required>
+                <br>
+                <label for="userImage">Foto</label>
+                <input type="file" accept="image/*" name="userImage">
             </fieldset>
 
             <fieldset>
                 <legend>Perfil</legend>
 
                 <p>Gênero:</p>
-                
+
                 <input type="radio" name="userGender" value="Feminino">
                 <label for="userGender">Feminino</label>
 
@@ -49,6 +49,17 @@
 
                 <input type="radio" name="userGender" value="Not informed">
                 <label for="userGender">Prefiro não informar</label>
+                <br>
+
+                <label for="maritalStatus">Estado Civil:</label>
+                <select name="maritalStatus">
+
+                    <option value="notInformed">Selecione...</option>
+                    <option value="Solteiro(a)">Solteiro(a)</option>
+                    <option value="Casado(a)">Casado(a)</option>
+                    <option value="Divorciado(a)">Divorciado(a)</option>
+                    <option value="Viúvo(a)">Viúvo(a)</option>
+                </select>
 
             </fieldset>
 
